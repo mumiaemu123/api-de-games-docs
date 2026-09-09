@@ -9,8 +9,9 @@ body{
 
 .navbar{
     background-color: gold;
-    padding: 15px 10px 270px;
+    padding: 30px;
     text-align: center;
+    display: grid;
 }
 
 .fotoPerfil{
@@ -32,13 +33,13 @@ h1{
 
 section{
     padding: 50px 10px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
 
 .academico{
     background-color: white;
-    float: inline-start;
     height: 450px;
 }
 
@@ -51,7 +52,6 @@ section{
 
 .pessoal{
     background-color: white;
-    float: inline-start;
     height: 450px;
 }
 
@@ -66,4 +66,37 @@ section{
     background-color: gold;
     text-align: center;
     padding: 10px;
+}
+
+.fotosAcademico > img{
+ height: 200px;
+ width: 200px;
+}
+
+.fotosAcademico{
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.fotosPessoal{
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+
+    display: grid;
+    grid-template-columns: 190px 200px;
+    grid-template-rows: 200px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.fotosPessoal > img {
+    height: 220px;
+    width: 190px;
 }
