@@ -1,0 +1,114 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    margin: 0 auto;
+}
+
+.inicio{
+    background-color: #1E293B;
+    padding: 5px;
+}
+
+.navbar{
+    background-color: #F8FAFC;
+    padding: 30px;
+    text-align: center;
+    display: grid;
+    color: #1E293B;
+}
+
+.fotoPerfil{
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.resumoPessoal p{
+    margin-left: 25%;
+    margin-right: 5%;
+}
+
+section{
+    padding: 50px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.academico{
+    background-color: #F8FAFC;
+    min-height: 500px;
+    color: #1E293B;
+}
+
+.academico > h2 {
+    text-align: center;
+    background-color: #1E293B;
+    margin: 0 auto;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.pessoal{
+    background-color:#F8FAFC;
+    min-height: 500px;
+    color: #1E293B;
+}
+
+.pessoal > h2{
+    text-align: center;
+    background-color: #1E293B;
+    margin: 0 auto;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.final{
+    background-color: #1E293B;
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.fotosAcademico > img{
+ height: 250px;
+ width: 100%;
+}
+
+.fotosAcademico{
+    height: 500px;
+    background-color: #1E293B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.fotosPessoal{
+    height: 500px;
+    background-color: #1E293B;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:250px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.fotosPessoal > img {
+    height: 250px;
+    width: 100%;
+}
